@@ -6,6 +6,7 @@ import Footer from './footer/Footer';
 import Header from './header/Header';
 import Price from './price/Price';
 import ShoppableStory from './shoppableStory/ShoppableStory';
+import ReportAnalytics from './reportAnalytics/ReportAnalytics';
 import StoryAdds from './storyAdds/StoryAdds';
 import Widget from './widget/Widget';
 
@@ -16,6 +17,7 @@ const MainLayout = () => {
         <Banner></Banner>
         <ShoppableStory></ShoppableStory>
         <StoryAdds></StoryAdds>
+        <ReportAnalytics></ReportAnalytics>
         <Features></Features>
         <Price></Price>
         <Faq></Faq>
